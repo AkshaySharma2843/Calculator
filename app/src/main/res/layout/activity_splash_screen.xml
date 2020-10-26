@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="175dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/splash1"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="450dp"
+            android:layout_height="102dp"
+            android:layout_below="@id/image"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="50dp"
+            android:text="CACLULATOR"
+            android:textColor="#12707A"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/calculator">
+
+        </TextView>
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_below="@id/calculator"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/plus"
+    android:id="@+id/plus">
+</ImageView>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/calculator"
+            android:layout_marginLeft="220dp"
+            android:src="@drawable/minus"
+            android:layout_marginTop="20dp"
+            android:id="@+id/minus">
+        </ImageView>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/plus"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/multiply"
+            android:src="@drawable/multi">
+        </ImageView>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/minus"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/division"
+            android:id="@+id/division">
+        </ImageView>
+</RelativeLayout>
